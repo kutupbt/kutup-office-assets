@@ -1,4 +1,4 @@
-FROM alpine:3.22 AS assemble
+FROM --platform=$BUILDPLATFORM alpine:3.22 AS assemble
 
 RUN apk add --no-cache bash coreutils curl findutils jq unzip
 
