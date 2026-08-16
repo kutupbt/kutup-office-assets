@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "bundle_version": "2026.08.16-cryptpad-v9",
+  "created": "2026-08-16T00:00:00Z",
+  "onlyoffice_additional_terms": {
+    "notice": "ONLYOFFICE-ADDITIONAL-TERMS.md",
+    "editor_example": "https://github.com/cryptpad/onlyoffice-editor/blob/4fcd833d00b3ba9852165874533925c7db2c4c56/sdkjs/common/Local/license.js",
+    "x2t_example": "https://github.com/cryptpad/onlyoffice-x2t-wasm/blob/a9b92bc026dea7c2160fb31839ef74d58d9c3652/core/X2tConverter/src/main.cpp",
+    "requirements": [
+      "AGPL-3.0-only",
+      "LicenseRef-ONLYOFFICE-Additional-Terms",
+      "CC-BY-SA-4.0",
+      "retain-original-product-logo",
+      "no-trademark-license"
+    ]
+  },
+  "editor": {
+    "name": "cryptpad-onlyoffice-editor",
+    "version": "v9.2.0.119+5",
+    "source_commit": "4fcd833d00b3ba9852165874533925c7db2c4c56",
+    "source_url": "https://github.com/cryptpad/onlyoffice-editor/tree/4fcd833d00b3ba9852165874533925c7db2c4c56",
+    "source_archive_url": "https://github.com/cryptpad/onlyoffice-editor/archive/4fcd833d00b3ba9852165874533925c7db2c4c56.tar.gz",
+    "artifact_url": "https://github.com/cryptpad/onlyoffice-editor/releases/download/v9.2.0.119%2B5/onlyoffice-editor.zip",
+    "size": 583548212,
+    "sha256": "3f4987af072ba18ad2543c82ada6e41e33a6f38b1ec5930f79b66d1afb7e0715",
+    "sha512": "1f1184fb04cf72a7eb2a49a9740074b5419486c79e1fd713e1f8c09b8594a826050ae941fed6ac6a96807ba73cc751d7c807bd7e6b73de9e4f8e74cd5ed04cfa",
+    "destination": "dist/v9"
+  },
+  "x2t": {
+    "name": "cryptpad-onlyoffice-x2t-wasm",
+    "version": "v7.3+1",
+    "source_commit": "a9b92bc026dea7c2160fb31839ef74d58d9c3652",
+    "source_url": "https://github.com/cryptpad/onlyoffice-x2t-wasm/tree/a9b92bc026dea7c2160fb31839ef74d58d9c3652",
+    "source_archive_url": "https://github.com/cryptpad/onlyoffice-x2t-wasm/archive/a9b92bc026dea7c2160fb31839ef74d58d9c3652.tar.gz",
+    "artifact_url": "https://github.com/cryptpad/onlyoffice-x2t-wasm/releases/download/v7.3%2B1/x2t.zip",
+    "size": 12072169,
+    "sha512": "ab0c05b0e4c81071acea83f0c6a8e75f5870c360ec4abc4af09105dd9b52264af9711ec0b7020e87095193ac9b6e20305e446f2321a541f743626a598e5318c1",
+    "destination": "dist/x2t"
+  },
+  "templates": {
+    "name": "cryptpad-empty-office-templates",
+    "version": "2025.6.0",
+    "source_commit": "ae5da10f8dad9d07a90751b8069f7ea101409a7c",
+    "source_url": "https://github.com/cryptpad/cryptpad/tree/ae5da10f8dad9d07a90751b8069f7ea101409a7c/www/common/onlyoffice",
+    "source_archive_url": "https://github.com/cryptpad/cryptpad/archive/ae5da10f8dad9d07a90751b8069f7ea101409a7c.tar.gz",
+    "files": [
+      {
+        "name": "oocell_base.js",
+        "url": "https://raw.githubusercontent.com/cryptpad/cryptpad/ae5da10f8dad9d07a90751b8069f7ea101409a7c/www/common/onlyoffice/oocell_base.js",
+        "sha512": "93be3572fa10c09be609f0bd78e7b77f20cb20a19761863db22935305489e33028b94e576eabe75d1f148463501c095dec86eb6cc68fed37ec95aece964f07ad"
+      },
+      {
+        "name": "oodoc_base.js",
+        "url": "https://raw.githubusercontent.com/cryptpad/cryptpad/ae5da10f8dad9d07a90751b8069f7ea101409a7c/www/common/onlyoffice/oodoc_base.js",
+        "sha512": "7e6f64972e6fff2a04454ea8534cee11dc00aba02a0b9e311a0e58742bd04320451bc3df192425fb81e2400ab9c0dff5428e5ae13020396cc869fdc3dae7b185"
+      },
+      {
+        "name": "ooslide_base.js",
+        "url": "https://raw.githubusercontent.com/cryptpad/cryptpad/ae5da10f8dad9d07a90751b8069f7ea101409a7c/www/common/onlyoffice/ooslide_base.js",
+        "sha512": "8457790509b752e000de8996c3c1ea58f1784061fa3d010267212f668e8e04a9416eb2b4b8082d6c7776b3d09a0a20709db841aa97aaa7e532c685ecf3168c45"
+      }
+    ]
+  },
+  "licenses": [
+    {
+      "name": "editor-wrapper-AGPL-3.0-or-later.txt",
+      "source": "cryptpad/onlyoffice-editor LICENSES/AGPL-3.0-or-later.txt",
+      "url": "https://raw.githubusercontent.com/cryptpad/onlyoffice-editor/4fcd833d00b3ba9852165874533925c7db2c4c56/LICENSES/AGPL-3.0-or-later.txt",
+      "sha512": "3edf11dc2de2f03f707fb3efb40092ddbf17cb17ec48951dd71cafb87f5857438b7d2ff3f89497a2921f018c3371fc760e7cbc2b7cb9b52ba7ebcbb36f8f04e2"
+    },
+    {
+      "name": "editor-wrapper-CC0-1.0.txt",
+      "source": "cryptpad/onlyoffice-editor LICENSES/CC0-1.0.txt",
+      "url": "https://raw.githubusercontent.com/cryptpad/onlyoffice-editor/4fcd833d00b3ba9852165874533925c7db2c4c56/LICENSES/CC0-1.0.txt",
+      "sha512": "1eb4436f8d58766cbe99db97e5e8c0db8a706376afd291c337de1ba7a6b066d3791dc85ad034bdd54ea336bed6e6e8e7a037d8b04b2773c9c7517b9d9921d1fa"
+    },
+    {
+      "name": "editor-sdkjs-AGPL-3.0.txt",
+      "source": "cryptpad/onlyoffice-editor sdkjs/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/cryptpad/onlyoffice-editor/4fcd833d00b3ba9852165874533925c7db2c4c56/sdkjs/LICENSE.txt",
+      "sha512": "6e90d46be391aa645bcf4dfaa67f452cb15a73749f1895633789c7763b43cc0b65d391e5e95652c9a9a2063c956e0e8099a4e1ce4b70b0636629f9eac39c1080"
+    },
+    {
+      "name": "editor-web-apps-AGPL-3.0.txt",
+      "source": "cryptpad/onlyoffice-editor web-apps/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/cryptpad/onlyoffice-editor/4fcd833d00b3ba9852165874533925c7db2c4c56/web-apps/LICENSE.txt",
+      "sha512": "a0a86214ea153fb07ff35ceec0848dd1703eae22de036a825efc8394e50f65e3044832f3b49cf7e45a39edc470bdf738abc36a3a78ca7df3a6e73c14eaef94a8"
+    },
+    {
+      "name": "x2t-core-AGPL-3.0.txt",
+      "source": "cryptpad/onlyoffice-x2t-wasm core/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/cryptpad/onlyoffice-x2t-wasm/a9b92bc026dea7c2160fb31839ef74d58d9c3652/core/LICENSE.txt",
+      "sha512": "a0a86214ea153fb07ff35ceec0848dd1703eae22de036a825efc8394e50f65e3044832f3b49cf7e45a39edc470bdf738abc36a3a78ca7df3a6e73c14eaef94a8"
+    },
+    {
+      "name": "cryptpad-templates-AGPL-3.0.txt",
+      "source": "cryptpad/cryptpad LICENSE",
+      "url": "https://raw.githubusercontent.com/cryptpad/cryptpad/ae5da10f8dad9d07a90751b8069f7ea101409a7c/LICENSE",
+      "sha512": "a0a86214ea153fb07ff35ceec0848dd1703eae22de036a825efc8394e50f65e3044832f3b49cf7e45a39edc470bdf738abc36a3a78ca7df3a6e73c14eaef94a8"
+    },
+    {
+      "name": "CC-BY-SA-4.0.txt",
+      "source": "Creative Commons Attribution-ShareAlike 4.0 International legal code",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+      "sha512": "a0ddd81c4f9af3702ae874d8c04aac4d23f17267ae23ef187e92b119d17c3527ad9a8615dd213c5d2d0f19c69739fe98145c14072a562babaa25286937988984"
+    }
+  ]
+}

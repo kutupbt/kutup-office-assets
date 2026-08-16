@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!assets.lock.json
+!ONLYOFFICE-ADDITIONAL-TERMS.md
+!scripts/
+!scripts/**
