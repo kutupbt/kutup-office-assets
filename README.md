@@ -42,6 +42,19 @@ docker build --output type=local,dest=.build .
 The extracted output is roughly 1.1 GiB. Docker's cache avoids repeating the
 download when the lock and build steps have not changed.
 
+## Published image
+
+The public AMD64/ARM64 package is available from GHCR. Consumers must pin its
+immutable OCI digest rather than relying on a mutable tag:
+
+```text
+ghcr.io/kutupbt/kutup-office-assets@sha256:c3142b6f74a22f6c5db14256be59e9c160e25b77234b069c0cd889405f2bd8b3
+```
+
+The human-readable tag `2026.08.16-cryptpad-v9` resolves to the same index.
+Both platform manifests reference the same architecture-independent static
+asset layer.
+
 ## Updating
 
 An update must change the lock, source coordinates, applicable licenses,
