@@ -51,10 +51,10 @@ The public AMD64/ARM64 package is available from GHCR. Consumers must pin its
 immutable OCI digest rather than relying on a mutable tag:
 
 ```text
-ghcr.io/kutupbt/kutup-office-assets@sha256:c3142b6f74a22f6c5db14256be59e9c160e25b77234b069c0cd889405f2bd8b3
+ghcr.io/kutupbt/kutup-office-assets@sha256:bec3e1204a3cb1b712317915d3cb3b61b83303964d85655990cf41a122a3e38b
 ```
 
-The human-readable tag `2026.08.16-cryptpad-v9` resolves to the same index.
+The human-readable tag `2026.09.27-kutup-v9` resolves to the same index.
 Both platform manifests reference the same architecture-independent static
 asset layer.
 
