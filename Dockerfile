@@ -14,9 +14,9 @@ RUN --mount=type=cache,id=kutup-office-downloads,target=/var/cache/kutup-office-
 FROM scratch
 
 LABEL org.opencontainers.image.title="Kutup client-side office assets" \
-      org.opencontainers.image.description="Pinned CryptPad-shaped OnlyOffice browser editor assets for Kutup" \
+      org.opencontainers.image.description="OnlyOffice browser editor and x2t converter for Kutup, built from Kutup's forks" \
       org.opencontainers.image.source="https://github.com/kutupbt/kutup-office-assets" \
       org.opencontainers.image.licenses="AGPL-3.0-only AND LicenseRef-ONLYOFFICE-Additional-Terms AND CC-BY-SA-4.0" \
-      org.opencontainers.image.version="2026.08.16-cryptpad-v9"
+      org.opencontainers.image.version="2026.09.27-kutup-v9"
 
 COPY --from=assemble /opt/kutup/onlyoffice/ /opt/kutup/onlyoffice/

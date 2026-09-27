@@ -7,8 +7,11 @@ This is an unofficial integration maintained by Kutup. It is not affiliated
 with or endorsed by ONLYOFFICE. ONLYOFFICE is a trademark of its respective
 owner, and no trademark rights are granted by this repository.
 
-The package combines the CryptPad-pinned OnlyOffice browser editor, CryptPad's
-x2t WebAssembly converter, and CryptPad's empty-document templates. It does not
+The package combines the OnlyOffice browser editor and the x2t WebAssembly
+converter, both built from Kutup's forks
+([`kutupbt/onlyoffice-editor`](https://github.com/kutupbt/onlyoffice-editor),
+[`kutupbt/onlyoffice-x2t-wasm`](https://github.com/kutupbt/onlyoffice-x2t-wasm))
+of CryptPad's builds, with CryptPad's empty-document templates. It does not
 contain or run OnlyOffice DocumentServer. Conversion and editing happen in the
 browser so Kutup's server remains content-blind.
 

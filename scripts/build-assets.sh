@@ -128,7 +128,7 @@ done < <(jq -er '.licenses[] | [.name, .url, .sha512] | @tsv' "$LOCK_PATH")
 
 cat >"$ASSEMBLY_PATH/dist/v9/document_editor_service_worker.js" <<'EOF'
 // Kutup no-op service worker. The pinned editor registers this path, but its
-// cache worker is not part of the CryptPad client-only release archive.
+// cache worker is not part of the client-only release archive.
 self.addEventListener('install', () => self.skipWaiting())
 self.addEventListener('activate', (event) => event.waitUntil(self.clients.claim()))
 EOF

@@ -22,8 +22,9 @@ jq -e '.schema_version == 1' "$LOCK_PATH" >/dev/null || fail "unsupported lock s
 cat >"$ASSET_PATH/LICENSE.md" <<'EOF'
 # Client-side office asset licenses
 
-This directory contains the CryptPad-pinned OnlyOffice browser editor,
-CryptPad's x2t WebAssembly converter, and CryptPad empty-document templates.
+This directory contains the OnlyOffice browser editor and x2t WebAssembly
+converter, built from Kutup's forks of CryptPad's builds, and CryptPad's
+empty-document templates.
 They are distributed under their applicable AGPL terms and file-level
 ONLYOFFICE Section 7 notices, with CC0 and CC BY-SA components where identified.
 Verbatim license copies and the additional-terms notice are in `LICENSES/`;

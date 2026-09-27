@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "bundle_version": "2026.08.16-cryptpad-v9",
-  "created": "2026-08-16T00:00:00Z",
+  "bundle_version": "2026.09.27-kutup-v9",
+  "created": "2026-09-27T00:00:00Z",
   "onlyoffice_additional_terms": {
     "notice": "ONLYOFFICE-ADDITIONAL-TERMS.md",
-    "editor_example": "https://github.com/cryptpad/onlyoffice-editor/blob/4fcd833d00b3ba9852165874533925c7db2c4c56/sdkjs/common/Local/license.js",
-    "x2t_example": "https://github.com/cryptpad/onlyoffice-x2t-wasm/blob/a9b92bc026dea7c2160fb31839ef74d58d9c3652/core/X2tConverter/src/main.cpp",
+    "editor_example": "https://github.com/kutupbt/onlyoffice-editor/blob/f32516e64b1ac04cbad6036ab394278c04ec8930/sdkjs/common/Local/license.js",
+    "x2t_example": "https://github.com/kutupbt/onlyoffice-x2t-wasm/blob/13c7f37c6efac8fb552b6266355a99136a3fb062/core/X2tConverter/src/main.cpp",
     "requirements": [
       "AGPL-3.0-only",
       "LicenseRef-ONLYOFFICE-Additional-Terms",
@@ -15,27 +15,29 @@
     ]
   },
   "editor": {
-    "name": "cryptpad-onlyoffice-editor",
-    "version": "v9.2.0.119+5",
-    "source_commit": "4fcd833d00b3ba9852165874533925c7db2c4c56",
-    "source_url": "https://github.com/cryptpad/onlyoffice-editor/tree/4fcd833d00b3ba9852165874533925c7db2c4c56",
-    "source_archive_url": "https://github.com/cryptpad/onlyoffice-editor/archive/4fcd833d00b3ba9852165874533925c7db2c4c56.tar.gz",
-    "artifact_url": "https://github.com/cryptpad/onlyoffice-editor/releases/download/v9.2.0.119%2B5/onlyoffice-editor.zip",
+    "name": "kutup-onlyoffice-editor",
+    "version": "kutup-v9.2.0.119+5.1",
+    "source_commit": "f32516e64b1ac04cbad6036ab394278c04ec8930",
+    "source_url": "https://github.com/kutupbt/onlyoffice-editor/tree/f32516e64b1ac04cbad6036ab394278c04ec8930",
+    "source_archive_url": "https://github.com/kutupbt/onlyoffice-editor/archive/f32516e64b1ac04cbad6036ab394278c04ec8930.tar.gz",
+    "artifact_url": "https://github.com/kutupbt/onlyoffice-editor/releases/download/kutup-v9.2.0.119%2B5.1/onlyoffice-editor.zip",
     "size": 583548212,
-    "sha256": "3f4987af072ba18ad2543c82ada6e41e33a6f38b1ec5930f79b66d1afb7e0715",
-    "sha512": "1f1184fb04cf72a7eb2a49a9740074b5419486c79e1fd713e1f8c09b8594a826050ae941fed6ac6a96807ba73cc751d7c807bd7e6b73de9e4f8e74cd5ed04cfa",
-    "destination": "dist/v9"
+    "sha256": "f9dbeab8822f189b07779843940aa0f3c411858575796a8fcfff0550a99e5b8f",
+    "sha512": "9fb2fa83146e689ed33393cad8fcedc2268b3443a6c0bd392a5ad23f6db1da75aaf97ad0a53796a83dbb4e72a793b93e50cd467340308e9da263dfed40f6b626",
+    "destination": "dist/v9",
+    "upstream": "cryptpad/onlyoffice-editor v9.2.0.119+5 (4fcd833d00b3ba9852165874533925c7db2c4c56); files byte-identical"
   },
   "x2t": {
-    "name": "cryptpad-onlyoffice-x2t-wasm",
-    "version": "v7.3+1",
-    "source_commit": "a9b92bc026dea7c2160fb31839ef74d58d9c3652",
-    "source_url": "https://github.com/cryptpad/onlyoffice-x2t-wasm/tree/a9b92bc026dea7c2160fb31839ef74d58d9c3652",
-    "source_archive_url": "https://github.com/cryptpad/onlyoffice-x2t-wasm/archive/a9b92bc026dea7c2160fb31839ef74d58d9c3652.tar.gz",
-    "artifact_url": "https://github.com/cryptpad/onlyoffice-x2t-wasm/releases/download/v7.3%2B1/x2t.zip",
+    "name": "kutup-onlyoffice-x2t-wasm",
+    "version": "kutup-v7.3+1.1",
+    "source_commit": "13c7f37c6efac8fb552b6266355a99136a3fb062",
+    "source_url": "https://github.com/kutupbt/onlyoffice-x2t-wasm/tree/13c7f37c6efac8fb552b6266355a99136a3fb062",
+    "source_archive_url": "https://github.com/kutupbt/onlyoffice-x2t-wasm/archive/13c7f37c6efac8fb552b6266355a99136a3fb062.tar.gz",
+    "artifact_url": "https://github.com/kutupbt/onlyoffice-x2t-wasm/releases/download/kutup-v7.3%2B1.1/x2t.zip",
     "size": 12072169,
-    "sha512": "ab0c05b0e4c81071acea83f0c6a8e75f5870c360ec4abc4af09105dd9b52264af9711ec0b7020e87095193ac9b6e20305e446f2321a541f743626a598e5318c1",
-    "destination": "dist/x2t"
+    "sha512": "1497bc72f2d6a00ceeea719496f29f2d7c02fb651b28a243557a566fe58a8df7ca4baa278857e5bf7be3990bc235040e61fc2b6e08ab610a71a7ebcfc389f918",
+    "destination": "dist/x2t",
+    "upstream": "cryptpad/onlyoffice-x2t-wasm v7.3+1 (a9b92bc026dea7c2160fb31839ef74d58d9c3652); x2t.wasm and x2t.js byte-identical"
   },
   "templates": {
     "name": "cryptpad-empty-office-templates",
@@ -64,32 +66,32 @@
   "licenses": [
     {
       "name": "editor-wrapper-AGPL-3.0-or-later.txt",
-      "source": "cryptpad/onlyoffice-editor LICENSES/AGPL-3.0-or-later.txt",
-      "url": "https://raw.githubusercontent.com/cryptpad/onlyoffice-editor/4fcd833d00b3ba9852165874533925c7db2c4c56/LICENSES/AGPL-3.0-or-later.txt",
+      "source": "kutupbt/onlyoffice-editor LICENSES/AGPL-3.0-or-later.txt",
+      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/f32516e64b1ac04cbad6036ab394278c04ec8930/LICENSES/AGPL-3.0-or-later.txt",
       "sha512": "3edf11dc2de2f03f707fb3efb40092ddbf17cb17ec48951dd71cafb87f5857438b7d2ff3f89497a2921f018c3371fc760e7cbc2b7cb9b52ba7ebcbb36f8f04e2"
     },
     {
       "name": "editor-wrapper-CC0-1.0.txt",
-      "source": "cryptpad/onlyoffice-editor LICENSES/CC0-1.0.txt",
-      "url": "https://raw.githubusercontent.com/cryptpad/onlyoffice-editor/4fcd833d00b3ba9852165874533925c7db2c4c56/LICENSES/CC0-1.0.txt",
+      "source": "kutupbt/onlyoffice-editor LICENSES/CC0-1.0.txt",
+      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/f32516e64b1ac04cbad6036ab394278c04ec8930/LICENSES/CC0-1.0.txt",
       "sha512": "1eb4436f8d58766cbe99db97e5e8c0db8a706376afd291c337de1ba7a6b066d3791dc85ad034bdd54ea336bed6e6e8e7a037d8b04b2773c9c7517b9d9921d1fa"
     },
     {
       "name": "editor-sdkjs-AGPL-3.0.txt",
-      "source": "cryptpad/onlyoffice-editor sdkjs/LICENSE.txt",
-      "url": "https://raw.githubusercontent.com/cryptpad/onlyoffice-editor/4fcd833d00b3ba9852165874533925c7db2c4c56/sdkjs/LICENSE.txt",
+      "source": "kutupbt/onlyoffice-editor sdkjs/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/f32516e64b1ac04cbad6036ab394278c04ec8930/sdkjs/LICENSE.txt",
       "sha512": "6e90d46be391aa645bcf4dfaa67f452cb15a73749f1895633789c7763b43cc0b65d391e5e95652c9a9a2063c956e0e8099a4e1ce4b70b0636629f9eac39c1080"
     },
     {
       "name": "editor-web-apps-AGPL-3.0.txt",
-      "source": "cryptpad/onlyoffice-editor web-apps/LICENSE.txt",
-      "url": "https://raw.githubusercontent.com/cryptpad/onlyoffice-editor/4fcd833d00b3ba9852165874533925c7db2c4c56/web-apps/LICENSE.txt",
+      "source": "kutupbt/onlyoffice-editor web-apps/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/f32516e64b1ac04cbad6036ab394278c04ec8930/web-apps/LICENSE.txt",
       "sha512": "a0a86214ea153fb07ff35ceec0848dd1703eae22de036a825efc8394e50f65e3044832f3b49cf7e45a39edc470bdf738abc36a3a78ca7df3a6e73c14eaef94a8"
     },
     {
       "name": "x2t-core-AGPL-3.0.txt",
-      "source": "cryptpad/onlyoffice-x2t-wasm core/LICENSE.txt",
-      "url": "https://raw.githubusercontent.com/cryptpad/onlyoffice-x2t-wasm/a9b92bc026dea7c2160fb31839ef74d58d9c3652/core/LICENSE.txt",
+      "source": "kutupbt/onlyoffice-x2t-wasm core/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-x2t-wasm/13c7f37c6efac8fb552b6266355a99136a3fb062/core/LICENSE.txt",
       "sha512": "a0a86214ea153fb07ff35ceec0848dd1703eae22de036a825efc8394e50f65e3044832f3b49cf7e45a39edc470bdf738abc36a3a78ca7df3a6e73c14eaef94a8"
     },
     {

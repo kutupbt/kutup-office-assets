@@ -3,12 +3,13 @@
 This repository packages, but does not claim authorship of, the following
 third-party components:
 
-- OnlyOffice browser editor code from the CryptPad
-  [`onlyoffice-editor`](https://github.com/cryptpad/onlyoffice-editor)
+- OnlyOffice browser editor code, built from Kutup's fork
+  [`kutupbt/onlyoffice-editor`](https://github.com/kutupbt/onlyoffice-editor)
+  of CryptPad's [`onlyoffice-editor`](https://github.com/cryptpad/onlyoffice-editor)
   wrapper, including upstream OnlyOffice `sdkjs` and `web-apps` code;
-- the CryptPad
-  [`onlyoffice-x2t-wasm`](https://github.com/cryptpad/onlyoffice-x2t-wasm)
-  converter, derived from OnlyOffice core; and
+- the x2t converter, derived from OnlyOffice core, built from Kutup's fork
+  [`kutupbt/onlyoffice-x2t-wasm`](https://github.com/kutupbt/onlyoffice-x2t-wasm)
+  of CryptPad's [`onlyoffice-x2t-wasm`](https://github.com/cryptpad/onlyoffice-x2t-wasm); and
 - empty-document templates from
   [`cryptpad/cryptpad`](https://github.com/cryptpad/cryptpad).
 
