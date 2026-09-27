@@ -18,11 +18,12 @@ source archive URLs are recorded in [`assets.lock.json`](assets.lock.json).
 The generated package includes verbatim license copies in `LICENSES/` and the
 same source record as `SOURCE.json`.
 
-Pinned ONLYOFFICE-derived files also carry Section 7 notices requiring the
-original Product logo and Appropriate Legal Notices to remain present, denying
-trademark rights, and applying CC BY-SA 4.0 to identified GUI content. See
-[`ONLYOFFICE-ADDITIONAL-TERMS.md`](ONLYOFFICE-ADDITIONAL-TERMS.md). Kutup
-preserves the visible original Product logo and attribution.
+ONLYOFFICE's licences add terms under AGPLv3 Section 7: keep notices and
+attribution, mark modified versions (with dates, as based on ONLYOFFICE by
+Ascensio System SIA), show Appropriate Legal Notices in the interface, no
+trademark rights, and CC BY-SA 4.0 for identified non-code content. See
+[`ONLYOFFICE-ADDITIONAL-TERMS.md`](ONLYOFFICE-ADDITIONAL-TERMS.md) for how
+Kutup meets them.
 
 ONLYOFFICE is a trademark of its respective owner. This repository is an
 unofficial Kutup integration and is not affiliated with or endorsed by

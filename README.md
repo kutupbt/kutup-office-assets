@@ -62,15 +62,16 @@ asset layer.
 
 An update must change the lock, source coordinates, applicable licenses,
 checksums, SBOM inputs, and Kutup browser evidence together. Never replace an
-existing release tag or OCI digest. The visible OnlyOffice logo and attribution
-must remain preserved in Kutup.
+existing release tag or OCI digest. The ONLYOFFICE attribution, the
+modification notices and Kutup's in-editor legal notice must stay in place
+(`ONLYOFFICE-ADDITIONAL-TERMS.md`).
 
 ## License and sources
 
 Packaging code in this repository is licensed under AGPL-3.0-or-later. The
 packaged third-party files retain their own copyright and license terms,
-including the file-level ONLYOFFICE Section 7 and CC BY-SA notices summarized
-in `ONLYOFFICE-ADDITIONAL-TERMS.md`. Exact license copies and
+including ONLYOFFICE's Section 7 additional terms and CC BY-SA notices
+summarized in `ONLYOFFICE-ADDITIONAL-TERMS.md`. Exact license copies and
 corresponding-source coordinates are installed under `/opt/kutup/onlyoffice/`
 and enumerated in `assets.lock.json`.
 
