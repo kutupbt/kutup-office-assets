@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_version": "2026.09.27-kutup-v9.4",
-  "created": "2026-09-27T00:00:00Z",
+  "bundle_version": "2026.09.28-kutup-v9.4",
+  "created": "2026-09-28T00:00:00Z",
   "onlyoffice_additional_terms": {
     "notice": "ONLYOFFICE-ADDITIONAL-TERMS.md",
     "editor_example": "https://github.com/kutupbt/onlyoffice-editor/blob/22a54c8113842a0bc4030434cace95299e3c3623/sdkjs/LICENSE",
