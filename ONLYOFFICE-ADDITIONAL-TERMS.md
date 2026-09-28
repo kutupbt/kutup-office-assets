@@ -38,7 +38,7 @@ How Kutup meets them:
 The pinned corresponding source:
 
 - `kutupbt/onlyoffice-editor` commit
-  `42f754df28cadb034ce64c8ca0167c3e048d7e4c` (`sdkjs/LICENSE`,
+  `aa78683e3a41459bb821ddba7af8fee50d919f3d` (`sdkjs/LICENSE`,
   `web-apps/LICENSE`, `MODIFICATIONS.md`); and
 - `kutupbt/onlyoffice-x2t-wasm` commit
   `7546e7970a212486057529aa2e969984fde0fdf2` (`core/LICENSE`,

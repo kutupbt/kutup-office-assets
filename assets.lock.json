@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "bundle_version": "2026.09.28-kutup-v9.4-pdf",
+  "bundle_version": "2026.09.28-kutup-v9.4-pdf-2",
   "created": "2026-09-28T00:00:00Z",
   "onlyoffice_additional_terms": {
     "notice": "ONLYOFFICE-ADDITIONAL-TERMS.md",
-    "editor_example": "https://github.com/kutupbt/onlyoffice-editor/blob/42f754df28cadb034ce64c8ca0167c3e048d7e4c/sdkjs/LICENSE",
+    "editor_example": "https://github.com/kutupbt/onlyoffice-editor/blob/aa78683e3a41459bb821ddba7af8fee50d919f3d/sdkjs/LICENSE",
     "x2t_example": "https://github.com/kutupbt/onlyoffice-x2t-wasm/blob/7546e7970a212486057529aa2e969984fde0fdf2/core/LICENSE",
     "requirements": [
       "AGPL-3.0-only",
@@ -18,14 +18,14 @@
   },
   "editor": {
     "name": "kutup-onlyoffice-editor",
-    "version": "kutup-v9.4.0.131.2",
-    "source_commit": "42f754df28cadb034ce64c8ca0167c3e048d7e4c",
-    "source_url": "https://github.com/kutupbt/onlyoffice-editor/tree/42f754df28cadb034ce64c8ca0167c3e048d7e4c",
-    "source_archive_url": "https://github.com/kutupbt/onlyoffice-editor/archive/42f754df28cadb034ce64c8ca0167c3e048d7e4c.tar.gz",
-    "artifact_url": "https://github.com/kutupbt/onlyoffice-editor/releases/download/kutup-v9.4.0.131.2/onlyoffice-editor.zip",
-    "size": 709112856,
-    "sha256": "0b8f9744832507bde1a94514e8ff370fd3bbe5e43aae8b03fc7d981eea4ec807",
-    "sha512": "de05235b1cddda2e2e515dfd7c135b72d1233ce625f08c6a782ec9897ec7bb31b9cb4649e186cedd8cf4cd7afdf4176ab981fe4e542d2aa24fcaab69d2940bad",
+    "version": "kutup-v9.4.0.131.3",
+    "source_commit": "aa78683e3a41459bb821ddba7af8fee50d919f3d",
+    "source_url": "https://github.com/kutupbt/onlyoffice-editor/tree/aa78683e3a41459bb821ddba7af8fee50d919f3d",
+    "source_archive_url": "https://github.com/kutupbt/onlyoffice-editor/archive/aa78683e3a41459bb821ddba7af8fee50d919f3d.tar.gz",
+    "artifact_url": "https://github.com/kutupbt/onlyoffice-editor/releases/download/kutup-v9.4.0.131.3/onlyoffice-editor.zip",
+    "size": 709113107,
+    "sha256": "909194d7e4160eb90040a4c2332aa8f32cafe9c69b0a2dff8e54a4a5f45200fb",
+    "sha512": "a140ab71ecc7f324c8bc8e49bd87b6d675c80f37b9cfbe33cc76e8e137b4835d0b66573b39d32c5be330dd144efb8a1d977b955eefd513f0254b1c873a50f119",
     "destination": "dist/v9",
     "upstream": "ONLYOFFICE sdkjs and web-apps v9.4.0.131 (ONLYOFFICE 9.4.0, with the PDF editor) with CryptPad changes from cryptpad/onlyoffice-editor v9.3.0.140+2 and Kutup changes (MODIFICATIONS.md)"
   },
@@ -69,25 +69,25 @@
     {
       "name": "editor-wrapper-AGPL-3.0-or-later.txt",
       "source": "kutupbt/onlyoffice-editor LICENSES/AGPL-3.0-or-later.txt",
-      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/42f754df28cadb034ce64c8ca0167c3e048d7e4c/LICENSES/AGPL-3.0-or-later.txt",
+      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/aa78683e3a41459bb821ddba7af8fee50d919f3d/LICENSES/AGPL-3.0-or-later.txt",
       "sha512": "3edf11dc2de2f03f707fb3efb40092ddbf17cb17ec48951dd71cafb87f5857438b7d2ff3f89497a2921f018c3371fc760e7cbc2b7cb9b52ba7ebcbb36f8f04e2"
     },
     {
       "name": "editor-wrapper-CC0-1.0.txt",
       "source": "kutupbt/onlyoffice-editor LICENSES/CC0-1.0.txt",
-      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/42f754df28cadb034ce64c8ca0167c3e048d7e4c/LICENSES/CC0-1.0.txt",
+      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/aa78683e3a41459bb821ddba7af8fee50d919f3d/LICENSES/CC0-1.0.txt",
       "sha512": "1eb4436f8d58766cbe99db97e5e8c0db8a706376afd291c337de1ba7a6b066d3791dc85ad034bdd54ea336bed6e6e8e7a037d8b04b2773c9c7517b9d9921d1fa"
     },
     {
       "name": "editor-sdkjs-LICENSE",
       "source": "kutupbt/onlyoffice-editor sdkjs/LICENSE",
-      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/42f754df28cadb034ce64c8ca0167c3e048d7e4c/sdkjs/LICENSE",
+      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/aa78683e3a41459bb821ddba7af8fee50d919f3d/sdkjs/LICENSE",
       "sha512": "e3ddb5bc42529c6130350f38f51bcf250c5b91511ce59223b65a7100de0c8ccc0f5ff83901e8d9eda098df18f0640ec3523cad933c62aaedc14229cc0835d4ae"
     },
     {
       "name": "editor-web-apps-LICENSE",
       "source": "kutupbt/onlyoffice-editor web-apps/LICENSE",
-      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/42f754df28cadb034ce64c8ca0167c3e048d7e4c/web-apps/LICENSE",
+      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/aa78683e3a41459bb821ddba7af8fee50d919f3d/web-apps/LICENSE",
       "sha512": "e3ddb5bc42529c6130350f38f51bcf250c5b91511ce59223b65a7100de0c8ccc0f5ff83901e8d9eda098df18f0640ec3523cad933c62aaedc14229cc0835d4ae"
     },
     {
@@ -105,8 +105,8 @@
     {
       "name": "editor-MODIFICATIONS.md",
       "source": "kutupbt/onlyoffice-editor MODIFICATIONS.md",
-      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/42f754df28cadb034ce64c8ca0167c3e048d7e4c/MODIFICATIONS.md",
-      "sha512": "9c3ef4b0c922cebd3b1f3bb1eb77bd1cf54950dfd83fe2dfcd6bac95e795b61720cb3528cf5dc40ec410e7d13fa8c688f722e11664b3d8359d50ca8d10f3ffe4"
+      "url": "https://raw.githubusercontent.com/kutupbt/onlyoffice-editor/aa78683e3a41459bb821ddba7af8fee50d919f3d/MODIFICATIONS.md",
+      "sha512": "80bbddd211a97847d2c6e00d71017bd0bb68356f3cd9ba1781770d3425009e57e5e90311e7b64c2330e8ca3b225b3cf3d7783c84f2291d6d95a21b92168340c4"
     },
     {
       "name": "x2t-MODIFICATIONS.md",
